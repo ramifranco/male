@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>¡Feliz San Valentín!</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-image: url('WhatsApp Image 2025-02-03 at 12.29.26 PM.jpeg');
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <h1>Que lindaaaa ¡aceptasteee! ❤️</h1>
+        <p>Esta es la propuesta mas nerd que vas a recibir, pero no sabes lo feliz que estoy de que mi novia quiera pasar San Valentín conmigo. ¡Te quiero muchísimo! 💕</p>
+        <p>Intentaste decir "No" <span id="count"></span> veces, pero el amor y lo porfiado siempre gana. 😄</p>
+    </div>
+    <script>
+        const noHoverCount = localStorage.getItem("noHoverCount");
+        document.getElementById("count").textContent = noHoverCount;
+    </script>
+</body>
+</html>
